@@ -29,6 +29,15 @@
     jwt-decode "2.2.0"
     tslib "1.9.3"
 
+"@accounts/client@^0.33.1":
+  version "0.33.1"
+  resolved "https://registry.yarnpkg.com/@accounts/client/-/client-0.33.1.tgz#aed05967136236aadaf85a036e93359bc8c37697"
+  integrity sha512-vUznAUkaPSclQAxKt3pjpw+iUrrt4bfx0pdo09YoS/elCeUMUHCLNnyaTPPXXyrzpUFrgLAmzZ1hkbkEJ+/jcA==
+  dependencies:
+    "@accounts/types" "^0.33.1"
+    jwt-decode "3.1.2"
+    tslib "2.3.0"
+
 "@accounts/graphql-client@^0.13.0":
   version "0.13.0"
   resolved "https://registry.yarnpkg.com/@accounts/graphql-client/-/graphql-client-0.13.0.tgz#82cb969b23dfd7d1e99a397f3d50a45fc0df3e52"
@@ -45,6 +54,13 @@
   integrity sha512-NlrWQQdZr/6QpwHBdjXvGYfRf28RK7NYV8hHHl777P9xNN1Mg2PEe1MVx6cyMUNS3PSxdsCBfAh07r1CTMUenQ==
   dependencies:
     tslib "1.9.3"
+
+"@accounts/types@^0.33.1":
+  version "0.33.2"
+  resolved "https://registry.yarnpkg.com/@accounts/types/-/types-0.33.2.tgz#dcf5adf1619242c1831729ec4ba7f8f4c7ceb5eb"
+  integrity sha512-VL/fNYHNef0Hjc7/FMQKKJW/jHCjmx3iu/uYAnbyspPRSRlJFFA0UdvTqOSaH/Qhu72JTfPcu6uLj0hgbV/vCQ==
+  dependencies:
+    tslib "2.3.1"
 
 "@babel/code-frame@7.0.0", "@babel/code-frame@^7.0.0":
   version "7.0.0"
@@ -7409,6 +7425,11 @@ jwt-decode@2.2.0:
   resolved "https://registry.yarnpkg.com/jwt-decode/-/jwt-decode-2.2.0.tgz#7d86bd56679f58ce6a84704a657dd392bba81a79"
   integrity sha1-fYa9VmefWM5qhHBKZX3TkruoGnk=
 
+jwt-decode@3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/jwt-decode/-/jwt-decode-3.1.2.tgz#3fb319f3675a2df0c2895c8f5e9fa4b67b04ed59"
+  integrity sha512-UfpWE/VZn0iP50d8cz9NrZLM9lSWhcJ+0Gt/nm4by88UL+J1SiKN8/5dkjMmbEzwL2CAe+67GsegCbIKtbp75A==
+
 killable@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/killable/-/killable-1.0.1.tgz#4c8ce441187a061c7474fb87ca08e2a638194892"
@@ -12140,6 +12161,16 @@ tslib@1.9.3, tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0, tslib@^1.9.3:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
   integrity sha512-4krF8scpejhaOgqzBEcGM7yDIEfi0/8+8zDRZhNZZ2kjmHJ4hv3zCbQWxoJGz1iw5U0Jl0nma13xzHXcncMavQ==
+
+tslib@2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.0.tgz#803b8cdab3e12ba581a4ca41c8839bbb0dacb09e"
+  integrity sha512-N82ooyxVNm6h1riLCoyS9e3fuJ3AMG2zIZs2Gd1ATcSFjSA23Q0fzjjZeh0jbJvWVDZ0cJT8yaNNaaXHzueNjg==
+
+tslib@2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
+  integrity sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==
 
 tslint-config-prettier@1.18.0:
   version "1.18.0"
